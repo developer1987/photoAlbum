@@ -1,0 +1,29 @@
+<div class="row row-offcanvas row-offcanvas-right">
+	<div class="col-xs-12 col-sm-8">
+		<p class="pull-right visible-xs">
+			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+		</p>
+		<div class="jumbotron text-center">
+			<h1 style="text-align: right">Фотоальбом</h1>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-lg-4 item" ng-repeat="photo in photos | filter: search">
+				<div class="preview-img text-center">
+					<img ng-src="{{photo.imageUrl}}" alt="{{photo.name}}"/>
+            	</div>
+				<h2>{{photo.name}}</h2>
+				<p><a class="btn btn-default" href="#/photos/{{photo.id}}" role="button">Подробнее &raquo;</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 sidebar-offcanvas" id="sidebar">
+		<h3 class="text-center">Фильтр альбомов</h3>
+		<div class="list-group">
+			<div class="list-group-item text-center">
+				<form>
+					<input type="text" class="form-control" placeholder="Поиск..." ng-model="search">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

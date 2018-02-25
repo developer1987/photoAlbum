@@ -1,0 +1,16 @@
+{
+    "id": "happybirthday2016", 
+    "images": [
+        "img/photos/happybirthday2016_1.jpg", 
+        "img/photos/happybirthday2016_2.jpg", 
+        "img/photos/happybirthday2016_3.jpg", 
+        "img/photos/happybirthday2016_4.jpg", 
+        "img/photos/happybirthday2016_5.jpg", 
+        "img/photos/happybirthday2016_6.jpg", 
+		"img/photos/happybirthday2016_7.jpg", 
+        "img/photos/happybirthday2016_8.jpg", 
+        "img/photos/happybirthday2016_9.jpg"
+    ], 
+    "name": "Happy Birthday 2016",
+    "description": "День рождения Полины"
+}

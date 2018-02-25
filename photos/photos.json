@@ -1,0 +1,17 @@
+[
+    {
+        "id": "happybirthday2016", 
+        "imageUrl": "img/photos/happybirthday2016_1.jpg", 
+        "name": "Happy Birthday 2016" 
+    }, 
+    {
+        "id": "happybirthday2017", 
+        "imageUrl": "img/photos/happybirthday2017_1.jpg", 
+        "name": "Happy Birthday 2017" 
+    }, 
+    {
+        "id": "happybirthday2018", 
+        "imageUrl": "img/photos/happybirthday2018_1.jpg", 
+        "name": "Happy Birthday 2018" 
+    }    
+]
